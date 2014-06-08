@@ -5,6 +5,10 @@
 ComicRight::Application.routes.draw do
 
 
+  # Resource routes for controller series
+  resources :series
+
+
   # Resource routes for controller users
   resources :users, :only => [:edit, :show, :create, :update, :destroy] do
     member do
@@ -22,6 +26,30 @@ ComicRight::Application.routes.draw do
   get 'logout(.:format)' => 'users#logout', :as => 'user_logout'
   get 'forgot_password(.:format)' => 'users#forgot_password', :as => 'user_forgot_password'
   post 'forgot_password(.:format)' => 'users#forgot_password', :as => 'user_forgot_password_post'
+
+
+  # Resource routes for controller contributors
+  resources :contributors
+
+
+  # Resource routes for controller comics
+  resources :comics
+
+
+  # Resource routes for controller copyrights
+  resources :copyrights
+
+
+  # Resource routes for controller stories
+  resources :stories
+
+
+  # Resource routes for controller authorships
+  resources :authorships
+
+
+  # Resource routes for controller publishers
+  resources :publishers
 
   namespace :concerns do
 

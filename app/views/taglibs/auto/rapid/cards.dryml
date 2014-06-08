@@ -1,6 +1,62 @@
 <!-- AUTOMATICALLY GENERATED FILE - DO NOT EDIT -->
 
 
+<def tag="card" for="Authorship">
+  <card class="authorship" param="default" merge>
+    <header: param>
+      <h4 param="heading"><a><name/></a></h4>
+    </header:>
+  </card>
+</def>
+
+<def tag="card" for="Comic">
+  <card class="comic" param="default" merge>
+    <header: param>
+      <h4 param="heading"><a><name/></a></h4>
+    </header:>
+  </card>
+</def>
+
+<def tag="card" for="Contributor">
+  <card class="contributor" param="default" merge>
+    <header: param>
+      <h4 param="heading"><a><name/></a></h4>
+    </header:>
+  </card>
+</def>
+
+<def tag="card" for="Copyright">
+  <card class="copyright" param="default" merge>
+    <header: param>
+      <h4 param="heading"><a><name/></a></h4>
+    </header:>
+  </card>
+</def>
+
+<def tag="card" for="Publisher">
+  <card class="publisher" param="default" merge>
+    <header: param>
+      <h4 param="heading"><a><name/></a></h4>
+    </header:>
+  </card>
+</def>
+
+<def tag="card" for="Series">
+  <card class="series" param="default" merge>
+    <header: param>
+      <h4 param="heading"><a><name/></a></h4>
+    </header:>
+  </card>
+</def>
+
+<def tag="card" for="Story">
+  <card class="story" param="default" merge>
+    <header: param>
+      <h4 param="heading"><a><name/></a></h4>
+    </header:>
+  </card>
+</def>
+
 <def tag="card" for="User">
   <card class="user" param="default" merge>
     <header: param>

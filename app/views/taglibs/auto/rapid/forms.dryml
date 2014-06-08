@@ -1,6 +1,90 @@
 <!-- AUTOMATICALLY GENERATED FILE - DO NOT EDIT -->
 
 
+<def tag="form" for="Authorship">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="" param/>
+    <div param="actions">
+      <submit label="#{ht 'authorship.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Comic">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="" param/>
+    <div param="actions">
+      <submit label="#{ht 'comic.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Contributor">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="" param/>
+    <div param="actions">
+      <submit label="#{ht 'contributor.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Copyright">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="" param/>
+    <div param="actions">
+      <submit label="#{ht 'copyright.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Publisher">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="" param/>
+    <div param="actions">
+      <submit label="#{ht 'publisher.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Series">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="" param/>
+    <div param="actions">
+      <submit label="#{ht 'series.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Story">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="" param/>
+    <div param="actions">
+      <submit label="#{ht 'story.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
 <def tag="form" for="User">
   <form merge param="default">
     <error-messages param/>
